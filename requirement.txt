@@ -8,3 +8,5 @@ streamlit
 fastapi[all]
 uvicorn
 langchain-pinecone
+lancedb
+langchain_groq
