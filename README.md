@@ -14,4 +14,4 @@ Here we basically utlize three tools to answer user queries.
 2) RAG pipeline - To refer to private (or proprietary) knowledge while giving answer to user queries.
 3) Polygon API: To get real time stock prices, company details etc.
 
-![REACT_Agent](https://github.com/user-attachments/assets/35c49d3b-0f8b-45e0-a866-51d7d533da10)
+![REACT_Agent](https://github.com/user-attachments/assets/daf0055a-619c-4aaa-8f03-037cf0b83443)
