@@ -15,3 +15,27 @@ Here we basically utlize three tools to answer user queries.
 3) Polygon API: To get real time stock prices, company details etc.
 
 ![REACT_Agent](https://github.com/user-attachments/assets/daf0055a-619c-4aaa-8f03-037cf0b83443)
+
+# Component Used
+1) Embedding LLM Model Used: Google-Gemini - "text-embedding-004"
+2) Generating LLM Model Used: Groq - "meta-llama/llama-4-scout-17b-16e-instruct"
+3) Vector DB Used: Pinecone Vector DB
+   
+# How to Launch the project
+1) Clone the repo
+   - git clone 
+   - cd agentic-trading-bot
+2) Set Up Virtual Env
+   - Use Conda : conda create --name agent_env python=3.10
+   - conda activate agent_env
+3) Install Dependencies
+   - pip install -r requirements.txt
+4) Set up .env file with below token
+    - PINECONE_API_KEY = 
+    - GOOGLE_API_KEY = 
+    - HF_TOKEN = 
+    - GROQ_API_KEY =  
+    - TAVILY_API_KEY = 
+5) Run main.py
+   - uvicorn main:app --reload --port 8000
+   - streamlit run streamli_ui.py
