@@ -10,3 +10,4 @@ uvicorn
 langchain-pinecone
 lancedb
 langchain_groq
+pypdf
