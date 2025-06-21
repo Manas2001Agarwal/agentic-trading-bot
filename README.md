@@ -23,7 +23,7 @@ Here we basically utlize three tools to answer user queries.
    
 # How to Launch the project
 1) Clone the repo
-   - git clone 
+   - git clone https://github.com/Manas2001Agarwal/agentic-trading-bot.git
    - cd agentic-trading-bot
 2) Set Up Virtual Env
    - Use Conda : conda create --name agent_env python=3.10
@@ -39,3 +39,10 @@ Here we basically utlize three tools to answer user queries.
 5) Run main.py
    - uvicorn main:app --reload --port 8000
    - streamlit run streamli_ui.py
+
+# Additional Info 
+1) Created two endpoints using FastAPI
+   - First to ingest the uploaded documents and load them into vector database. "\query" ==> Invoking langgraph workflow
+   - Second to Agent (Graph) that will execute tools to get answers to question asked "\upload" ==> Invoking data ingestion pipeline
+2) Created an Interactive UI components using Streamlit thay seeming integrated with both Fast API endpoints
+3) Whether it is a .pdf or .docx we are accepting both file types and loading, chunking and storing them in Pinecone Vector DB
