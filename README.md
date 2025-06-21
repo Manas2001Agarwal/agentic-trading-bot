@@ -46,3 +46,6 @@ Here we basically utlize three tools to answer user queries.
    - Second to Agent (Graph) that will execute tools to get answers to question asked "\upload" ==> Invoking data ingestion pipeline
 2) Created an Interactive UI components using Streamlit thay seeming integrated with both Fast API endpoints
 3) Whether it is a .pdf or .docx we are accepting both file types and loading, chunking and storing them in Pinecone Vector DB
+
+# Working Demo
+<img width="1406" alt="Screenshot 2025-06-21 at 10 40 30 PM" src="https://github.com/user-attachments/assets/0b3f1463-ab91-4077-b858-d22d5fe0a3eb" />
