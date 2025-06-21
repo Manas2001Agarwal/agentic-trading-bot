@@ -1,5 +1,5 @@
 # Problem Statement
-In this project we have created that will answer questions related to trading/stock prices etc.
+In this project we have created an agentic trading chatbot that will answer questions related to trading/stock prices etc.
 Given that we want to invest our money in stock market, we will have questions for example - 
 1) What is the current stock price of current stock of a particular company ?
 2) Recent news regarding that company like any Product Launches, IPO, Events etc..
