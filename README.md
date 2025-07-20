@@ -18,7 +18,7 @@ Here we basically utlize three tools to answer user queries.
 
 # Component Used
 1) Embedding LLM Model Used: Google-Gemini - "text-embedding-004"
-2) Generating LLM Model Used: Groq - "meta-llama/llama-4-scout-17b-16e-instruct"
+2) Generative LLM Model Used: Groq - "meta-llama/llama-4-scout-17b-16e-instruct"
 3) Vector DB Used: Pinecone Vector DB
    
 # How to Launch the project
